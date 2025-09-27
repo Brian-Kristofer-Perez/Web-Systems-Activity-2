@@ -24,55 +24,57 @@
         <title>Login Form</title>
         <style>
             body {
-            font-family: Arial, sans-serif;
-            background: #f4f4f4;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
+                font-family: Arial, sans-serif;
+                background: #f4f4f4;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
             }
 
             .login-container {
-            background: #fff;
-            padding: 30px 40px;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            width: 300px;
+                background: #fff;
+                padding: 30px 40px;
+                border-radius: 8px;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                width: 300px;
             }
 
             h2 {
-            text-align: center;
-            margin-bottom: 20px;
+                text-align: center;
+                margin-bottom: 20px;
             }
 
             label {
-            display: block;
-            margin-top: 10px;
-            margin-bottom: 5px;
+                display: block;
+                margin-top: 10px;
+                margin-bottom: 5px;
             }
 
             input[type="text"],
             input[type="password"] {
-            width: 100%;
-            padding: 10px;
-            margin-bottom: 15px;
-            border: 1px solid #ccc;
-            border-radius: 4px;
+                width: 100%;
+                padding: 10px;
+                margin-bottom: 15px;
+                border: 1px solid #ccc;
+                border-radius: 4px;
+                box-sizing: border-box;
             }
 
             button {
-            width: 100%;
-            padding: 10px;
-            background-color: #007BFF;
-            border: none;
-            color: white;
-            border-radius: 4px;
-            font-size: 16px;
-            cursor: pointer;
+                width: 100%;
+                padding: 10px;
+                margin-top: 10px;
+                background-color: #007BFF;
+                border: none;
+                color: white;
+                border-radius: 4px;
+                font-size: 16px;
+                cursor: pointer;
             }
 
             button:hover {
-            background-color: #0056b3;
+                background-color: #0056b3;
             }
         </style>
     </head>
@@ -87,7 +89,7 @@
                 <label for="password">Password</label>
                 <input type="password" id="passw" name="password" required>
 
-            <button type="submit">Login</button>
+                <button type="submit">Login</button>
             </form>
         </div>
     </body>
@@ -107,7 +109,7 @@
             ob_clean();
             CV();
         } else {
-            echo "<script>alert('There was an error with your submission!');</script>";
+            echo "<script>alert('Invalid username or password!');</script>";
         }
     }
 

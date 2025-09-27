@@ -3,10 +3,10 @@
                 echo "<!DOCTYPE html>";
                 echo "<html lang='en'>";
                 echo "<head>";
-                echo "    <meta charset='UTF-8'>";
-                echo "    <meta name='viewport' content='width=device-width, initial-scale=1.0'>";
-                echo "    <title>Brian Kristofer Perez - CV</title>";
-                echo "    <style>
+                echo "<meta charset='UTF-8'>";
+                echo "<meta name='viewport' content='width=device-width, initial-scale=1.0'>";
+                echo "<title>Brian Kristofer Perez - CV</title>";
+                echo "<style>
                         body { font-family: Arial, sans-serif; margin: 20px; line-height: 1.6; }
                         h1, h2 { color: #333; }
                         h1 { font-size: 28px; margin-bottom: 5px; }
@@ -14,8 +14,8 @@
                         .contact { font-size: 14px; color: #555; }
                         ul { margin-top: 5px; }
                         li { margin-bottom: 5px; }
-                        </style>";
-                echo "</head>";
+                </style>";
+
 
                 echo "<body>";
 
@@ -35,11 +35,17 @@
                 </ul>";
 
                 echo "<h2>Education</h2>";
-                echo "<p><b>Batangas State University - Alangilan</b>, Alangilan, Batangas City<br>
-                Bachelor of Computer Science (Aug 2023 – Current)</p>";
+                echo "<p>
+                        <b>Batangas State University - Alangilan</b>, Alangilan, Batangas City
+                        <br>
+                        Bachelor of Computer Science (Aug 2023 – Current)
+                </p>";
 
-                echo "<p><b>Batangas State University - Main</b>, Rizal Avenue, Batangas City<br>
-                Senior High School Student (Aug 2022 – May 2023)</p>";
+                echo "<p>
+                        <b>Batangas State University - Main</b>, Rizal Avenue, Batangas City
+                        <br>
+                        Senior High School Student (Aug 2022 – May 2023)
+                </p>";
 
                 echo "<h2>University Projects</h2>";
                 echo "<p><b>Image-Based Plant Leaf Disease Classifier (May 2025)</b></p>";
